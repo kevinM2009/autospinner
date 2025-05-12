@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    color: #e0e1dd;
+    margin: 0;
+    padding: 20px;
+}
+
+.confirmation {
+    background: #1e3a5f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    margin: auto;
+    color: #e0e1dd;
+}
+
+.orderid {
+    font-weight: bold;
+    color: #00e676;
+}
+
+.backhome {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.backhome:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+}
+
+.ordertracking {
+    margin-top: 20px;
+    padding: 25px;
+    background: #1e3a5f;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    margin: auto;
+    color: #e0e1dd;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    background-color: #e0e1dd;
+    color: #0d1b2a;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #00916e;
+    transform: scale(1.05);
+}
